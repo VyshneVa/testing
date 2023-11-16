@@ -1,0 +1,15 @@
+
+Behavior: The washing machine should be capable of adjusting the drum rotation speed.
+
+Scenario: Change the drum rotation speed
+Given a washing machine
+When the user selects the high drum rotation speed setting
+And presses the "Start" button
+Then the washing machine should initiate a laundry cycle
+And the temperature should be "Medium"
+And the drum rotation speed should be "High"
+
+
+
+
+
